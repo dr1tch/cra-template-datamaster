@@ -1,0 +1,106 @@
+.ant-table table {
+    border: 2px #e7e7e7 solid;
+    border-radius: 8px;
+}
+
+.ant-table-small .ant-table-thead>tr>th {
+    /* background-color: #048864; */
+    /* background-color: rgba(50, 136, 101, .5); */
+    background-color: #EEEEEE;
+    font-size: 14px;
+}
+
+.ant-table-thead>tr>th {
+    /* background-color: rgba(50, 136, 101, .2); */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.ant-table-tbody>tr.ant-table-row-selected>td {
+    background-color: #f9f9f9;
+}
+
+.ant-table-tbody>tr>td {
+    /* text-align: center; */
+    /* font-weight: 600; */
+    font-size: 14px;
+}
+
+
+/* .ant-table-tbody>tr.ant-table-row-selected:hover>td {
+    background-color: #c2e4d4;
+} */
+
+.ant-table-thead>tr>th {
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.ant-table-cell {
+    font-size: 14px;
+}
+
+.ant-pagination-item-active {
+    /* background-color: #048864; */
+    margin-left: 4px;
+    /* color: #fff; */
+}
+
+.ant-pagination-item-active a {
+    color: #fff
+}
+
+.ant-pagination-item-active a:hover {
+    color: #eee
+}
+
+.ant-pagination-item {
+    border-radius: 2px;
+    /* margin-right: 2rem; */
+}
+
+.ant-pagination-prev,
+.ant-pagination-next,
+.ant-pagination-jump-prev,
+.ant-pagination-jump-next {
+    /* border: 1px #ccc solid; */
+    border-radius: 2px;
+}
+
+.ant-pagination.mini .ant-pagination-item:not(.ant-pagination-item-active) {
+    border: 1px #ccc solid;
+    /* margin-left: 4px;
+    margin-right: 4px; */
+}
+
+.ant-pagination.mini .ant-pagination-item {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .ant-pagination.mini .ant-pagination-options-size-changer {
+    margin-left: 4px;
+} */
+
+.ant-pagination.mini .ant-pagination-options {
+    margin-left: 4px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 2px;
+}
+
+.ant-pagination-total-text {
+    margin-right: 12px;
+}

@@ -1,0 +1,23 @@
+.ant-input::placeholder {
+    font-weight: 500;
+}
+
+.ant-input {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.ant-input[disabled] {
+    color: rgba(39, 44, 47, 0.85)
+}
+
+.ant-input-number {
+    width: 100%;
+}
+
+.ant-input-number-input {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}

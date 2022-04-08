@@ -1,0 +1,20 @@
+{
+    "name": "cra-template-datamaster",
+    "main": "template.json",
+    "version": "1.0.0",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "template"
+    ],
+    "description": "The base template for data master react projects.",
+    "license": "ISC",
+    "author": "Youssouf Kacemi",
+    "engines": {
+        "node": ">=10"
+    },
+    "files": [
+        "template",
+        "template.json"
+    ]
+}

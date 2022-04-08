@@ -1,0 +1,23 @@
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    padding: 4px 11px;
+    height: 42px;
+}
+
+.ant-select-selection-item {
+    font-weight: 500;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    color: #F2F2F2;
+    /* background-color: #048864; */
+}
+
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    color: rgba(39, 44, 47, 0.85)
+}
+
+
+/* .ant-select-item-option-active:hover {
+    background-color: rgba(4, 136, 100, .1);
+    color: #272C2F
+} */

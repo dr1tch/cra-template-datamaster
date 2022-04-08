@@ -1,0 +1,12 @@
+.ant-picker {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.ant-picker-input>input[disabled] {
+    color: rgba(39, 44, 47, 0.85)
+}
+
+.ant-picker-dropdown {
+    z-index: 9999;
+}

@@ -1,0 +1,12 @@
+/* .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #048864;
+    color: #fff;
+} */
+
+.ant-steps-item-finish .ant-steps-item-icon>.ant-steps-icon {
+    color: #fff
+}
+
+.anticon {
+    vertical-align: 0;
+}
