@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/bin/node /home/dr1tch/.yarn/bin/yarn.js publish
+
+PATH: 
+  /home/dr1tch/.yarn/bin:/home/dr1tch/.config/yarn/global/node_modules/.bin:/home/dr1tch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dr1tch/.yarn/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/dr1tch/.yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:527:28)
+      at Interface.[_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1117:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:269:20)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  {
+      "name": "cra-template-datamaster",
+      "main": "template.json",
+      "version": "1.1.0",
+      "keywords": [
+          "react",
+          "create-react-app",
+          "template"
+      ],
+      "description": "The base template for data master react projects.",
+      "license": "ISC",
+      "author": "Youssouf Kacemi",
+      "engines": {
+          "node": ">=10"
+      },
+      "files": [
+          "template",
+          "template.json"
+      ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
